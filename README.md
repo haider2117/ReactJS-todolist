@@ -50,7 +50,8 @@ npm run dev
 
 ## 🌐 Live Demo
 
-[🔗 Visit Live App on Netlify](reactjs-todo-01.netlify.app)
+<a href="https://reactjs-todo-01.netlify.app" target="_blank">🔗 Visit Live App on Netlify</a>
+
 
 ---
 
