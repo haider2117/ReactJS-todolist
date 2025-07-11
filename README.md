@@ -5,8 +5,11 @@ A simple and interactive Todo List app built with **React** and styled using **C
 ---
 
 ## 📸 Screenshot
+<p align="center">
+  <img src="./assets/screenshot.png" alt="Todo App Screenshot" width="400" />
+</p>
 
-<img src="./assets/screenshot.png" alt="Todo App Screenshot" width="400" />
+---
 
 ## 🔧 Features
 
