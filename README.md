@@ -4,6 +4,10 @@ A simple and interactive Todo List app built with **React** and styled using **C
 
 ---
 
+## 📸 Screenshot
+
+![Todo App Screenshot](./assets/screenshot.png)
+
 ## 🔧 Features
 
 - ✅ Add new todos
@@ -50,7 +54,8 @@ npm run dev
 
 ## 🌐 Live Demo
 
-<a href="https://reactjs-todo-01.netlify.app" target="_blank">🔗 Visit Live App on Netlify</a>
+🔗 [Visit Live App on Netlify](https://reactjs-todo-01.netlify.app)
+
 
 
 ---
