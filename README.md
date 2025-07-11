@@ -1,12 +1,95 @@
-# React + Vite
+# 📝 React Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Todo List app built with **React** and styled using **CSS**. It supports adding, editing, and deleting tasks, and stores data in **localStorage** so your tasks persist even after refreshing the browser!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshot
 
-## Expanding the ESLint configuration
+![Todo App Screenshot](./assets/screenshot.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Features
+
+- ✅ Add new todos
+- 🗑️ Delete existing todos
+- ✏️ Edit a todo item
+- 💾 Persistent storage using `localStorage`
+- ⚛️ Built with functional components and React hooks (`useState`, `useEffect`)
+- 🧩 Modular code (separated into components like `TodoInput`, `TodoList`, `TodoCard`)
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+│
+├── App.jsx              # Main app logic and state handling
+├── components/
+│   ├── TodoInput.jsx    # Input field and add button
+│   ├── TodoList.jsx     # Maps todos to individual cards
+│   └── TodoCard.jsx     # Displays a single todo item with edit/delete
+├── index.css            # Styling (optional)
+└── main.jsx             # Renders the App
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js installed
+- npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/react-todo-list.git
+cd react-todo-list
+npm install
+npm run dev
+```
+
+---
+
+## 🌐 Live Demo
+
+🔗 [Visit Live App on Netlify](https://reactjs-todo-01.netlify.app)
+
+
+
+---
+
+## 📦 Technologies Used
+
+- React
+- JavaScript (ES6+)
+- HTML5 & CSS3
+- localStorage API
+- Vite (for faster dev/build)
+
+---
+
+## 🧠 Concepts Covered
+
+- React functional components
+- State management with `useState`
+- Side effects with `useEffect`
+- Prop drilling and reusable components
+- Immutable data updates
+- Browser localStorage persistence
+
+---
+
+## 🧑‍💻 Author
+
+**Haider Zia**  
+Roll No: 22i-1196  
+FAST University, Islamabad  
+✨ Built with ❤️ using React
+
+---
+
+## 📜 License
+
+This project is open-source and available under the [MIT License](LICENSE).
