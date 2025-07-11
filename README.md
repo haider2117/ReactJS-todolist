@@ -6,7 +6,7 @@ A simple and interactive Todo List app built with **React** and styled using **C
 
 ## 📸 Screenshot
 
-![Todo App Screenshot](./assets/screenshot.png)
+<img src="./assets/screenshot.png" alt="Todo App Screenshot" width="400" />
 
 ## 🔧 Features
 
